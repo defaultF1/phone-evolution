@@ -271,7 +271,7 @@
     if (ph) {
       var host = '';
       try { host = new URL(ph.page).hostname.replace(/^www\./, '').replace(/^commons\.wikimedia\.org$/, 'Wikimedia Commons'); } catch (err) {}
-      credit = (ph.note ? esc(ph.note) + '. ' : '') + 'Photo: ' + esc(ph.credit) + (ph.license ? ' · ' + esc(ph.license) : '') +
+      credit = (ph.note ? esc(ph.note) + '. ' : '') + (ph.ai ? 'AI recreation of a photo by ' : 'Photo: ') + esc(ph.credit) + (ph.license ? ' · ' + esc(ph.license) : '') +
         (host ? ' · <a href="' + esc(ph.page) + '" target="_blank" rel="noopener noreferrer">' + esc(host) + '</a>' : '');
     }
     $('taleCredit').innerHTML = credit;

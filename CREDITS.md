@@ -1,6 +1,8 @@
 # Photo credits
 
-Each photo below was downloaded from the page linked, and its background was removed for this site. Licences are as stated on the source page; follow the link for the full terms.
+The phone images on this site are AI recreations, not photographs. Each one was generated with Higgsfield (GPT Image) from the photo credited below, to give the collection a consistent studio look on a transparent background. They follow the source photo closely, but small details such as screen contents, labels and wear are the model's rendering and should not be treated as documentary evidence.
+
+The source photos were downloaded from the pages linked. Licences are as stated on the source page and carry over to the recreation derived from it; follow the link for the full terms.
 
 | Year | Phone | Author | Licence | Source |
 |---|---|---|---|---|
@@ -17,7 +19,7 @@ Each photo below was downloaded from the page linked, and its background was rem
 | 1959 | Bell Princess Telephone | User:Mcheath | Public domain | [source](https://commons.wikimedia.org/wiki/File:Western_Electric_Company_Princess_phones.jpg) |
 | 1963 | Western Electric 1500 Touch-Tone | Daderot | CC0 | [source](https://commons.wikimedia.org/wiki/File:Western_Electric_10_Button_WE_1500_-_Telephone_Museum_-_Waltham,_Massachusetts_-_DSC08111.jpg) |
 | 1965 | Western Electric Trimline | KansasCity at English Wikipedia | CC BY-SA 3.0 | [source](https://commons.wikimedia.org/wiki/File:Trimline_telephone.jpg) |
-| 1973 | Motorola DynaTAC Prototype (Shown: Martin Cooper with a DynaTAC handset, photographed in 2007) | Rico Shen | CC BY-SA 3.0 | [source](https://commons.wikimedia.org/wiki/File:2007Computex_e21Forum-MartinCooper.jpg) |
+| 1973 | Motorola DynaTAC Prototype (Recreated from a 2007 photo of Martin Cooper holding a DynaTAC handset) | Rico Shen | CC BY-SA 3.0 | [source](https://commons.wikimedia.org/wiki/File:2007Computex_e21Forum-MartinCooper.jpg) |
 | 1979 | NTT Automobile Telephone (TZ-801) (Shown: a later Japanese Type 100 car phone) | Yoh-Plus | CC BY 4.0 | [source](https://commons.wikimedia.org/wiki/File:Car_phone_Type100_at_Japan.jpg) |
 | 1983 | Motorola DynaTAC 8000X | Avicente05 | CC BY-SA 4.0 | [source](https://commons.wikimedia.org/wiki/File:Motorola_DynaTAC_8000X.png) |
 | 1987 | Nokia Mobira Cityman 900 (Shown: the sibling Mobira Cityman 450) | Fennoradio | CC BY-SA 3.0 | [source](https://commons.wikimedia.org/wiki/File:Mobira_Cityman_450.JPG) |

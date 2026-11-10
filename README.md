@@ -37,9 +37,9 @@ Then visit http://localhost:8000. It also works as-is on GitHub Pages.
 
 - `index.html`, `styles.css`, `app.js`: the page, the parchment theme and the carousel.
 - `data/phones-a.js`, `data/phones-b.js`, `data/phones-c.js`: researched entries for 1876–1972, 1973–2007 and 2007–2026.
-- `photos.js` and `img/`: one cut-out photo per phone, with its credit and licence.
+- `photos.js` and `img/`: one cut-out image per phone, with the credit and licence of the photo it was recreated from.
 - `sketches.js`, `sketchmap.js`: ink-sketch fallbacks, used if a photo is missing.
 
 ## Credits
 
-Facts were checked against the sources listed in each phone's entry. Photo credits and licences are shown in each story scroll and listed in [CREDITS.md](CREDITS.md). Backgrounds were removed from the photos with an AI background remover.
+Facts were checked against the sources listed in each phone's entry. The phone images are AI recreations made with Higgsfield from freely licensed photos, so they share one studio look; they are not photographs. The source photo's author and licence are shown in each story scroll and listed in [CREDITS.md](CREDITS.md).
