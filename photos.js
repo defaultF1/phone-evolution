@@ -43,12 +43,12 @@ window.PHOTOS = {
  "trimline-1965": {
   "src": "img/trimline-1965.webp",
   "kind": "cut",
-  "w": 372,
-  "h": 614,
-  "credit": "KansasCity at English Wikipedia",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Trimline_telephone.jpg",
-  "file": "File:Trimline telephone.jpg"
+  "w": 707,
+  "h": 331,
+  "credit": "Telephone Archive (telephonearchive.com)",
+  "license": "© Telephone Archive or its contributor",
+  "page": "https://www.telephonearchive.com/phones/rotary-dial-trimline",
+  "file": "https://www.telephonearchive.com/uploads/phones/display/trimline_rotary.jpeg"
  },
  "dynatac-8000x-1983": {
   "src": "img/dynatac-8000x-1983.webp",
@@ -73,12 +73,12 @@ window.PHOTOS = {
  "nokia-1011-1992": {
   "src": "img/nokia-1011-1992.webp",
   "kind": "cut",
-  "w": 345,
-  "h": 723,
-  "credit": "Unknown",
-  "license": "CC BY 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Nokia_1011_museum.jpg",
-  "file": "File:Nokia 1011 museum.jpg"
+  "w": 243,
+  "h": 760,
+  "credit": "Mobile Phone Museum",
+  "license": "© Mobile Phone Museum",
+  "page": "https://www.mobilephonemuseum.com/phone-detail/1011",
+  "file": "https://static-mpm-optimized.s3.eu-west-2.amazonaws.com/d81b8b13-aa3e-46a7-b58a-92ab5e11686c_xlarge.png"
  },
  "ibm-simon-1994": {
   "src": "img/ibm-simon-1994.webp",
@@ -133,12 +133,12 @@ window.PHOTOS = {
  "sharp-jsh04-2000": {
   "src": "img/sharp-jsh04-2000.webp",
   "kind": "cut",
-  "w": 742,
-  "h": 654,
-  "credit": "Morio",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Sharp_J-SH04_CP%2B_2011.jpg",
-  "file": "File:Sharp J-SH04 CP+ 2011.jpg"
+  "w": 209,
+  "h": 760,
+  "credit": "Mobile Phone Museum",
+  "license": "© Mobile Phone Museum",
+  "page": "https://www.mobilephonemuseum.com/phone-detail/j-phone-j-sh04",
+  "file": "https://static-mpm-optimized.s3.eu-west-2.amazonaws.com/5514c37f-67a0-4b69-9d00-975477bfcba4_xlarge.png"
  },
  "nokia-3310-2000": {
   "src": "img/nokia-3310-2000.webp",
@@ -163,12 +163,12 @@ window.PHOTOS = {
  "nokia-n95-2007": {
   "src": "img/nokia-n95-2007.webp",
   "kind": "cut",
-  "w": 338,
-  "h": 642,
-  "credit": "Asim18",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Nokia_N95_Front_1.jpg",
-  "file": "File:Nokia N95 Front 1.jpg"
+  "w": 321,
+  "h": 760,
+  "credit": "Mobile Phone Museum",
+  "license": "© Mobile Phone Museum",
+  "page": "https://www.mobilephonemuseum.com/phone-detail/nokia-n95",
+  "file": "https://cms.mobilephonemuseum.com/assets/440022ee-1085-45f9-994d-d103e921da6a.png"
  },
  "iphone-2007": {
   "src": "img/iphone-2007.webp",
@@ -183,12 +183,12 @@ window.PHOTOS = {
  "tmobile-g1-2008": {
   "src": "img/tmobile-g1-2008.webp",
   "kind": "cut",
-  "w": 692,
-  "h": 554,
-  "credit": "Marcus Sümnick",
-  "license": "CC BY 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:HTC_Dream_opened.jpg",
-  "file": "File:HTC Dream opened.jpg"
+  "w": 629,
+  "h": 760,
+  "credit": "Mobile Phone Museum",
+  "license": "© Mobile Phone Museum",
+  "page": "https://www.mobilephonemuseum.com/phone-detail/t-mobile-g1",
+  "file": "https://cms.mobilephonemuseum.com/assets/f411047b-3169-4bc1-9677-6071076e4f74.png"
  },
  "iphone-4-2010": {
   "src": "img/iphone-4-2010.webp",
@@ -243,12 +243,12 @@ window.PHOTOS = {
  "iphone-15-pro-2023": {
   "src": "img/iphone-15-pro-2023.webp",
   "kind": "cut",
-  "w": 734,
-  "h": 492,
-  "credit": "Ka Kit Pang",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:IPhone_Pro_(Max).jpg",
-  "file": "File:IPhone Pro (Max).jpg"
+  "w": 760,
+  "h": 528,
+  "credit": "Apple",
+  "license": "© Apple",
+  "page": "https://www.apple.com/newsroom/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/",
+  "file": "https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-color-lineup-230912_big.jpg.large_2x.jpg"
  },
  "magneto-wall-1882": {
   "src": "img/magneto-wall-1882.webp",
@@ -263,12 +263,12 @@ window.PHOTOS = {
  "touchtone-1500-1963": {
   "src": "img/touchtone-1500-1963.webp",
   "kind": "cut",
-  "w": 556,
-  "h": 482,
-  "credit": "Daderot",
-  "license": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:Western_Electric_10_Button_WE_1500_-_Telephone_Museum_-_Waltham,_Massachusetts_-_DSC08111.jpg",
-  "file": "File:Western Electric 10 Button WE 1500 - Telephone Museum - Waltham, Massachusetts - DSC08111.jpg"
+  "w": 760,
+  "h": 594,
+  "credit": "Courtesy AT&T Archives and History Center (via Engineering and Technology History Wiki)",
+  "license": "© AT&T Archives and History Center",
+  "page": "https://ethw.org/Telephone_Dials",
+  "file": "https://ethw-images.s3.us-east-va.perf.cloud.ovh.us/ethw/e/e5/Telephone_dial_2.jpg"
  },
  "dynatac-proto-1973": {
   "src": "img/dynatac-proto-1973.webp",
@@ -284,42 +284,42 @@ window.PHOTOS = {
  "iphone-6-2014": {
   "src": "img/iphone-6-2014.webp",
   "kind": "cut",
-  "w": 732,
+  "w": 579,
   "h": 760,
-  "credit": "Ryse93",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:IPhone_6_%26_6_Plus.png",
-  "file": "File:IPhone 6 & 6 Plus.png"
+  "credit": "Apple",
+  "license": "© Apple",
+  "page": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone6-gray-select-2014",
+  "file": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone6-gray-select-2014?wid=1880&hei=2224&fmt=png-alpha"
  },
  "iphone-12-2020": {
   "src": "img/iphone-12-2020.webp",
   "kind": "cut",
-  "w": 330,
-  "h": 664,
-  "credit": "Rafael Fernandez",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:IPhone_12_Blue.svg",
-  "file": "File:IPhone 12 Blue.svg"
+  "w": 559,
+  "h": 760,
+  "credit": "Apple",
+  "license": "© Apple",
+  "page": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-blue-select-2020",
+  "file": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-blue-select-2020?wid=1880&hei=2224&fmt=png-alpha"
  },
  "iphone-14-pro-2022": {
   "src": "img/iphone-14-pro-2022.webp",
   "kind": "cut",
-  "w": 300,
-  "h": 568,
-  "credit": "Hajoon0102",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Back_of_the_iPhone_14_Pro.jpg",
-  "file": "File:Back of the iPhone 14 Pro.jpg"
+  "w": 416,
+  "h": 760,
+  "credit": "Apple",
+  "license": "© Apple",
+  "page": "https://www.apple.com/newsroom/2022/09/apple-debuts-iphone-14-pro-and-iphone-14-pro-max/",
+  "file": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-deep-purple-220907_inline.jpg.large_2x.jpg"
  },
  "galaxy-s26-ultra-2026": {
   "src": "img/galaxy-s26-ultra-2026.webp",
   "kind": "cut",
-  "w": 256,
-  "h": 435,
-  "credit": "เวียร์",
-  "license": "CC BY 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Galaxy_S26_Ultra_lavender.jpg",
-  "file": "File:Galaxy S26 Ultra lavender.jpg"
+  "w": 749,
+  "h": 760,
+  "credit": "Samsung",
+  "license": "© Samsung",
+  "page": "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/",
+  "file": "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948ulbaatt-550992840?$product-details-jpg$"
  },
  "honor-robot-phone-2026": {
   "src": "img/honor-robot-phone-2026.webp",
@@ -334,12 +334,12 @@ window.PHOTOS = {
  "iphone-duo-2026": {
   "src": "img/iphone-duo-2026.webp",
   "kind": "cut",
-  "w": 553,
-  "h": 406,
-  "credit": "茅野ふたば",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:IPhone_Duo_fold_rear.jpg",
-  "file": "File:IPhone Duo fold rear.jpg"
+  "w": 760,
+  "h": 392,
+  "credit": "Apple",
+  "license": "© Apple",
+  "page": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+  "file": "https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-colors-260909_big.jpg.large_2x.jpg"
  },
  "we-302-1937": {
   "src": "img/we-302-1937.webp",
@@ -364,77 +364,78 @@ window.PHOTOS = {
  "strowger-dial-1892": {
   "src": "img/strowger-dial-1892.webp",
   "kind": "cut",
-  "w": 338,
-  "h": 703,
-  "credit": "Daderot",
-  "license": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:Strowger_Automatic_dial_candlestick_telephone,_1905_-_Telephone_Museum_-_Waltham,_Massachusetts_-_DSC08249.jpg",
-  "file": "File:Strowger Automatic dial candlestick telephone, 1905 - Telephone Museum - Waltham, Massachusetts - DSC08249.jpg"
+  "w": 464,
+  "h": 760,
+  "credit": "Science Museum Group Collection © The Board of Trustees of the Science Museum",
+  "license": "CC BY-NC-SA 4.0",
+  "page": "https://collection.sciencemuseumgroup.org.uk/objects/co33201/strowger-automatic-telephone-1901-1910",
+  "file": "https://coimages.sciencemuseumgroup.org.uk/23/836/large_1926_1056__0003_.jpg",
+  "note": "Shown: a Strowger automatic table telephone of 1901 to 1910"
  },
  "princess-1959": {
   "src": "img/princess-1959.webp",
   "kind": "cut",
-  "w": 752,
-  "h": 404,
-  "credit": "User:Mcheath",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Western_Electric_Company_Princess_phones.jpg",
-  "file": "File:Western Electric Company Princess phones.jpg"
+  "w": 760,
+  "h": 412,
+  "credit": "From the Collections of The Henry Ford (THF157539, object 2014.0.17.74)",
+  "license": "© The Henry Ford",
+  "page": "https://www.thehenryford.org/collections/explore/artifact/389978",
+  "file": "https://collections-media.thehenryford.org/CollectionImages/_detail/photos/thf157539.jpg"
  },
  "galaxy-note-2011": {
   "src": "img/galaxy-note-2011.webp",
   "kind": "cut",
-  "w": 656,
-  "h": 401,
-  "credit": "Rameshng",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Samsung_galaxy_Note_-_Snap_2553.JPG",
-  "file": "File:Samsung galaxy Note - Snap 2553.JPG"
+  "w": 431,
+  "h": 760,
+  "credit": "Samsung Electronics (official product render, via Open Icecat)",
+  "license": "© Samsung Electronics",
+  "page": "https://icecat.co.uk/en/p/samsung/gt-n7000zba/galaxy-smartphones-8806071787510-gt-n7000-11145758.html",
+  "file": "https://images.icecat.biz/img/gallery/13b0a42b7df4fbd8bcb7d0721f6af170bfdb51c0.jpg"
  },
  "galaxy-fold-2019": {
   "src": "img/galaxy-fold-2019.webp",
   "kind": "cut",
-  "w": 636,
-  "h": 729,
-  "credit": "KKPCW",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Galaxy_Fold_-_1.jpg",
-  "file": "File:Galaxy Fold - 1.jpg"
+  "w": 503,
+  "h": 760,
+  "credit": "Samsung",
+  "license": "© Samsung",
+  "page": "https://news.samsung.com/global/samsung-unfolds-the-future-with-a-whole-new-mobile-category-introducing-galaxy-fold",
+  "file": "https://img.global.news.samsung.com/global/wp-content/uploads/2020/09/Samsung-Galaxy-Fold-Space-Silver-1.jpg"
  },
  "galaxy-s24-ultra-2024": {
   "src": "img/galaxy-s24-ultra-2024.webp",
   "kind": "cut",
-  "w": 573,
-  "h": 480,
-  "credit": "可恩Ke En",
-  "license": "CC BY 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_s24_series_3.jpg",
-  "file": "File:Samsung Galaxy s24 series 3.jpg"
+  "w": 756,
+  "h": 760,
+  "credit": "Samsung",
+  "license": "© Samsung",
+  "page": "https://news.samsung.com/us/enter-new-era-of-mobile-ai-samsung-galaxy-s24-series/",
+  "file": "https://snr-2019-presskits-production.s3.amazonaws.com/enter_the_new_era_of_mobile_ai_with_samsung_galaxy_s24_series/images/galaxy-s24ultra-titaniumgray-device-spen-front_HI-scaled.jpg"
  },
  "mate-xt-2024": {
   "src": "img/mate-xt-2024.webp",
   "kind": "cut",
-  "w": 483,
-  "h": 570,
-  "credit": "Ghaud Lnegauk",
-  "license": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_GT_Land_%E6%98%A5%E5%BB%A3%E5%A0%B4_Spring_Plaza_mall_shop_Huawei_Store_%E8%8F%AF%E7%82%BA_Mate_XT_%E4%B8%89%E6%91%BA%E6%89%8B%E6%A9%9F_folding_smartphone_tablet_September_2024_R12S_01.jpg",
-  "file": "File:GD 廣東 Guangdong 廣州 Guangzhou 花城大道 HuaCheng Avenue GT Land 春廣場 Spring Plaza mall shop Huawei Store 華為 Mate XT 三摺手機 folding smartphone tablet September 2024 R12S 01.jpg"
+  "w": 603,
+  "h": 760,
+  "credit": "Huawei",
+  "license": "© Huawei",
+  "page": "https://consumer.huawei.com/en/phones/mate-xt-ultimate-design/",
+  "file": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/mate-xt-ultimate-design/260914/images/design/colour-red-2x.png"
  },
  "iphone-air-2025": {
   "src": "img/iphone-air-2025.webp",
   "kind": "cut",
-  "w": 269,
-  "h": 669,
-  "credit": "Ahmad Ali Karim",
-  "license": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:Sky_Blue_iPhone_Air.jpg",
-  "file": "File:Sky Blue iPhone Air.jpg"
+  "w": 760,
+  "h": 644,
+  "credit": "Apple",
+  "license": "© Apple",
+  "page": "https://www.apple.com/newsroom/2025/09/introducing-iphone-air-a-powerful-new-iphone-with-a-breakthrough-design/",
+  "file": "https://www.apple.com/newsroom/images/2025/09/introducing-iphone-air-a-powerful-new-iphone-with-a-breakthrough-design/article/Apple-iPhone-Air-color-lineup-250909_big.jpg.large_2x.jpg"
  },
  "we-candlestick-1904": {
   "src": "img/we-candlestick-1904.webp",
   "kind": "cut",
-  "w": 408,
+  "w": 311,
   "h": 757,
   "credit": "Nuberger13",
   "license": "Public domain",
@@ -444,13 +445,13 @@ window.PHOTOS = {
  "bell-mts-1946": {
   "src": "img/bell-mts-1946.webp",
   "kind": "cut",
-  "w": 399,
-  "h": 536,
-  "credit": "Nedeljko Begenisic, Tekniska museet",
-  "license": "CC BY 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Biltelefon_MTA_1956.jpg",
-  "file": "File:Biltelefon MTA 1956.jpg",
-  "note": "Shown: a Swedish MTA car telephone of 1956, a comparable early set"
+  "w": 705,
+  "h": 524,
+  "credit": "WB6NVH.com (collector site)",
+  "license": "© WB6NVH.com",
+  "page": "https://www.wb6nvh.com/MTSfiles/Carphone1.htm",
+  "file": "http://www.wb6nvh.com/MTSfiles/WE41A005.jpg",
+  "note": "Shown: the Western Electric 41A control unit and handset used in MTS cars"
  },
  "ntt-carphone-1979": {
   "src": "img/ntt-carphone-1979.webp",
@@ -466,43 +467,43 @@ window.PHOTOS = {
  "mobira-cityman-1987": {
   "src": "img/mobira-cityman-1987.webp",
   "kind": "cut",
-  "w": 265,
-  "h": 728,
-  "credit": "Fennoradio",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Mobira_Cityman_450.JPG",
-  "file": "File:Mobira Cityman 450.JPG",
-  "note": "Shown: the sibling Mobira Cityman 450"
+  "w": 150,
+  "h": 760,
+  "credit": "Mobile Phone Museum",
+  "license": "© Mobile Phone Museum",
+  "page": "https://www.mobilephonemuseum.com/phone-detail/cityman-1320",
+  "file": "https://static-mpm-optimized.s3.eu-west-2.amazonaws.com/71a0ddea-d908-4ee6-b672-a41adcc756fe_xlarge.png",
+  "note": "Shown: the Cityman 1320, which shares the Cityman 900's body"
  },
  "blackberry-5810-2002": {
   "src": "img/blackberry-5810-2002.webp",
   "kind": "cut",
-  "w": 522,
-  "h": 701,
-  "credit": "Jarek Tuszyński",
-  "license": "CC BY 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Blackberry_RIM_957_-_01.jpg",
-  "file": "File:Blackberry RIM 957 - 01.jpg",
-  "note": "Shown: the earlier BlackBerry 957, in the same body style"
+  "w": 514,
+  "h": 760,
+  "credit": "Mobile Phone Museum",
+  "license": "© Mobile Phone Museum",
+  "page": "https://www.mobilephonemuseum.com/phone-detail/blackbarry-5810",
+  "file": "https://static-mpm-optimized.s3.eu-west-2.amazonaws.com/a17a0145-dcb0-4253-9d4e-a0d22f588d0a_xlarge.png",
+  "note": "Shown: a BT Cellnet-branded 5810"
  },
  "nokia-1100-2003": {
   "src": "img/nokia-1100-2003.webp",
   "kind": "cut",
-  "w": 249,
-  "h": 593,
-  "credit": "Warszawska róg Szerokiej w Tomaszowie Mazowieckim, w województwie łódzkim",
-  "license": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:Nadal_dzia%C5%82ajaca_Nokia_1100_(2018_rok)_Zakupiona_w_2005_roku._Obecnie_obs%C5%82uguje_polsk%C4%85_sie%C4%87_Play.jpg",
-  "file": "File:Nadal działajaca Nokia 1100 (2018 rok) Zakupiona w 2005 roku. Obecnie obsługuje polską sieć Play.jpg"
+  "w": 330,
+  "h": 760,
+  "credit": "Mobile Phone Museum",
+  "license": "© Mobile Phone Museum",
+  "page": "https://www.mobilephonemuseum.com/phone-detail/1100",
+  "file": "https://static-mpm-optimized.s3.eu-west-2.amazonaws.com/31d513da-e8b3-49d1-88b7-4662484b37a6_xlarge.png"
  },
  "galaxy-z-fold7-2025": {
   "src": "img/galaxy-z-fold7-2025.webp",
   "kind": "cut",
-  "w": 655,
-  "h": 717,
-  "credit": "Megapro17",
-  "license": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Fold7_Main_Screen_(cropped).jpg",
-  "file": "File:Samsung Galaxy Fold7 Main Screen (cropped).jpg"
+  "w": 564,
+  "h": 760,
+  "credit": "Samsung",
+  "license": "© Samsung",
+  "page": "https://news.samsung.com/global/samsung-galaxy-z-fold7-raising-the-bar-for-smartphones",
+  "file": "https://img.global.news.samsung.com/global/wp-content/uploads/2025/07/Samsung-Mobile-Galaxy-Unpacked-July-2025-Galaxy-Z-Fold7-PR_dl4-Final.jpg"
  }
 };
