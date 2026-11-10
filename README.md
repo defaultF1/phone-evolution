@@ -1,6 +1,6 @@
 # The Telephone Scrolls
 
-An interactive timeline of the telephone, from Bell's liquid transmitter of 1876 to the foldable phones of 2026, set on an old parchment scroll.
+An interactive timeline of the telephone, from Bell's liquid transmitter of 1876 to the foldable phones of 2026, staged as a dark showroom: each phone stands under a spotlight on a reflective floor.
 
 Fifty phones across six chapters:
 
@@ -35,7 +35,7 @@ Then visit http://localhost:8000. It also works as-is on GitHub Pages.
 
 ## Files
 
-- `index.html`, `styles.css`, `app.js`: the page, the parchment theme and the carousel.
+- `index.html`, `styles.css`, `app.js`: the page, the dark showroom theme and the carousel.
 - `data/phones-a.js`, `data/phones-b.js`, `data/phones-c.js`: researched entries for 1876–1972, 1973–2007 and 2007–2026.
 - `photos.js` and `img/`: one cut-out image per phone, with the credit and licence of the photo it was recreated from.
 - `sketches.js`, `sketchmap.js`: ink-sketch fallbacks, used if a photo is missing.
