@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Telephone Scrolls</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Pirata+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- shared ink + paper effects -->
+<svg class="defs" width="0" height="0" aria-hidden="true" focusable="false">
+  <defs>
+    <filter id="ragged" x="-3%" y="-3%" width="106%" height="106%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="4" seed="11" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="16" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="wobble" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#3a2412" stroke-width="1" opacity=".55"/>
+    </pattern>
+    <pattern id="xhatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#3a2412" stroke-width="1" opacity=".5"/>
+      <line x1="0" y1="0" x2="5" y2="0" stroke="#3a2412" stroke-width="1" opacity=".5"/>
+    </pattern>
+    <pattern id="dots" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r=".9" fill="#3a2412" opacity=".5"/>
+    </pattern>
+  </defs>
+</svg>
+
+<div class="desk">
+  <div class="rod rod-top" aria-hidden="true"></div>
+
+  <div class="sheet">
+    <header class="bar">
+      <div class="brand">
+        <span class="seal" aria-hidden="true">T</span>
+        <span class="brand-name">The Telephone Scrolls</span>
+        <span class="chapter-badge" id="chapterBadge">Chapter I</span>
+      </div>
+
+      <nav class="tabs" id="tabs" aria-label="Chapters"></nav>
+
+      <div class="tools">
+        <button class="btn" id="voyageBtn" title="Play through every phone in order"><span class="ico">&#9654;</span> <span class="t">Voyage</span></button>
+        <button class="btn" id="ledgerBtn" title="See every phone at once"><span class="ico">&#9638;</span> <span class="t" id="ledgerLabel">All Phones</span></button>
+        <button class="btn btn-sq" id="soundBtn" title="Sound off" aria-pressed="false">&#9834;</button>
+      </div>
+    </header>
+
+    <section class="head" id="head">
+      <p class="meta"><span class="date" id="date"></span><span class="sep">&middot;</span><span id="line"></span><span class="sep">&middot;</span><span class="count" id="count"></span></p>
+      <h1 class="title" id="title"></h1>
+      <p class="tagline" id="tagline"></p>
+    </section>
+
+    <section class="stage" id="stage" aria-label="Phone carousel. Drag, scroll or use the arrow keys.">
+      <div class="ghost" id="ghost" aria-hidden="true"></div>
+      <svg class="compass" viewBox="0 0 120 120" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="1.2">
+          <circle cx="60" cy="60" r="44"/><circle cx="60" cy="60" r="38" stroke-dasharray="2 4"/>
+          <path d="M60 6 L67 53 L114 60 L67 67 L60 114 L53 67 L6 60 L53 53 Z"/>
+          <path d="M28 28 L56 56 M92 28 L64 56 M92 92 L64 64 M28 92 L56 64"/>
+        </g>
+        <path d="M60 6 L67 53 L60 60 Z M114 60 L67 67 L60 60 Z M60 114 L53 67 L60 60 Z M6 60 L53 53 L60 60 Z" fill="currentColor"/>
+        <text x="60" y="4" text-anchor="middle" font-size="9" fill="currentColor" style="font-family:'IM Fell English SC',serif" dy="-1">N</text>
+      </svg>
+      <div class="floor" aria-hidden="true"></div>
+      <div class="items" id="items"></div>
+      <div class="anno" id="anno" aria-hidden="true"></div>
+      <div class="empty" id="empty" hidden>The scrolls are still being inked. Reload in a moment.</div>
+    </section>
+
+    <section class="foot">
+      <div class="specs" id="specs"></div>
+      <button class="cta" id="taleBtn"><span class="dot" aria-hidden="true"></span>Unroll the Full Tale <span aria-hidden="true">&rsaquo;</span></button>
+    </section>
+
+    <section class="scrub">
+      <button class="nav" id="prevBtn" aria-label="Previous phone">&lsaquo;</button>
+      <div class="track" id="track">
+        <div class="strip" id="strip"></div>
+        <div class="marker" id="marker" aria-hidden="true"><b></b><i>&#10005;</i></div>
+      </div>
+      <button class="nav" id="nextBtn" aria-label="Next phone">&rsaquo;</button>
+    </section>
+  </div>
+
+  <div class="rod rod-bottom" aria-hidden="true"></div>
+</div>
+
+<!-- story scroll -->
+<div class="veil" id="taleVeil" hidden>
+  <div class="tale" id="tale" role="dialog" aria-modal="true" aria-labelledby="taleTitle">
+    <div class="rod rod-top" aria-hidden="true"></div>
+    <div class="tale-body">
+      <div class="tale-scroll">
+        <header class="tale-head">
+          <div>
+            <p class="meta left"><span class="date" id="taleDate"></span><span class="sep">&middot;</span><span id="taleLine"></span></p>
+            <h2 class="tale-title" id="taleTitle"></h2>
+          </div>
+          <div class="tale-tools">
+            <button class="btn" id="bellBtn">&#9834; Ring the Era Bell</button>
+            <button class="close" id="taleClose" aria-label="Close">&#10005;</button>
+          </div>
+        </header>
+        <div class="tale-grid">
+          <figure class="plate">
+            <div class="plate-art" id="taleArt"></div>
+            <figcaption><span id="taleCap"></span><span class="credit" id="taleCredit"></span></figcaption>
+          </figure>
+          <div class="tale-text">
+            <p class="story" id="taleStory"></p>
+            <div class="box">
+              <h3>Craft &amp; Engineering Milestones</h3>
+              <ul id="taleMiles"></ul>
+            </div>
+            <div class="note">
+              <h3>Archivist's Note</h3>
+              <p id="taleNote"></p>
+            </div>
+            <p class="sources" id="taleSources"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rod rod-bottom" aria-hidden="true"></div>
+  </div>
+</div>
+
+<!-- full ledger -->
+<div class="veil" id="ledgerVeil" hidden>
+  <div class="ledger" role="dialog" aria-modal="true" aria-label="All phones">
+    <header class="ledger-head">
+      <h2>The Full Ledger</h2>
+      <button class="close" id="ledgerClose" aria-label="Close">&#10005;</button>
+    </header>
+    <div class="ledger-body" id="ledgerBody"></div>
+  </div>
+</div>
+
+<script src="data/phones-a.js"></script>
+<script src="data/phones-b.js"></script>
+<script src="data/phones-c.js"></script>
+<script src="photos.js"></script>
+<script src="sketches.js"></script>
+<script src="sketchmap.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
